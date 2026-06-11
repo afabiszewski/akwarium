@@ -7,6 +7,5 @@ This app should stay simple, quick, and static.
 - Keep pages easy to open locally and easy to deploy as static files.
 - The site must support Polish, English, and German.
 - Every piece of user-facing text and content must be translated in all three languages.
-- Keep translatable text in a dedicated dictionary file instead of hardcoding copy in page markup or scripts.
+- Prefer separate static localized HTML pages for language versions so switching languages works without JavaScript.
 - Favor small, readable changes over abstractions.
-- Use JavaScript only when it directly improves the user experience.
