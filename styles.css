@@ -14,6 +14,7 @@
 }
 
 body {
+  min-width: 320px;
   margin: 0;
   background: var(--color-bg);
   color: var(--color-text);
@@ -43,6 +44,7 @@ a {
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
 .site-nav {
@@ -94,12 +96,14 @@ h1 {
   margin-bottom: 20px;
   font-size: clamp(2.4rem, 7vw, 5.5rem);
   line-height: 1;
+  overflow-wrap: anywhere;
 }
 
 h2 {
   margin-bottom: 14px;
   font-size: clamp(1.8rem, 4vw, 3rem);
   line-height: 1.1;
+  overflow-wrap: anywhere;
 }
 
 .hero p:not(.eyebrow) {
@@ -141,6 +145,7 @@ h2 {
 .section p {
   color: var(--color-muted);
   font-size: 1.05rem;
+  overflow-wrap: anywhere;
 }
 
 .site-footer {
@@ -158,13 +163,34 @@ h2 {
     align-items: flex-start;
     flex-direction: column;
     gap: 10px;
+    padding-block: 14px;
   }
 
   .site-nav {
     flex-wrap: wrap;
+    gap: 8px 14px;
+    font-size: 0.9rem;
   }
 
   .hero {
     min-height: 68vh;
+    align-items: flex-end;
+    padding-top: 80px;
+    padding-bottom: 56px;
+  }
+
+  h1 {
+    font-size: clamp(2.15rem, 13vw, 3.25rem);
+  }
+
+  .hero p:not(.eyebrow) {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .button {
+    justify-content: center;
+    width: 100%;
   }
 }
