@@ -5,58 +5,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Apartamenty do wynajęcia w Mrzeżynie, blisko morza i portu."
+      content="Rodzinne apartamenty Akwarium w Mrzeżynie, 200 metrów od plaży, z ogrodem, parkingiem i spokojną lokalizacją przy lesie."
     >
-    <title>Akwarium Mrzeżyno | Apartamenty na wynajem</title>
+    <title>Akwarium Mrzeżyno | Rodzinne apartamenty nad morzem</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#">Akwarium Mrzeżyno</a>
+      <a class="brand" href="#top" aria-label="Akwarium Mrzeżyno">
+        <span>Akwarium</span>
+        <small>Mrzeżyno</small>
+      </a>
       <nav class="site-nav" aria-label="Główna nawigacja">
-        <a href="#apartments">Apartamenty</a>
-        <a href="#location">Lokalizacja</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#apartamenty">Apartamenty</a>
+        <a href="#udogodnienia">Udogodnienia</a>
+        <a href="#cennik">Cennik</a>
+        <a href="#okolica">Okolica</a>
+        <a href="#kontakt">Kontakt</a>
       </nav>
     </header>
 
-    <main>
+    <main id="top">
       <section class="hero">
         <div class="hero-content">
-          <p class="eyebrow">Apartamenty nad morzem</p>
-          <h1>Wypoczynek w Mrzeżynie, kilka kroków od plaży.</h1>
+          <p class="eyebrow">Rodzinne apartamenty nad morzem</p>
+          <h1>Spokojny wypoczynek w Mrzeżynie, 200 metrów od plaży.</h1>
           <p>
-            Kameralne apartamenty dla rodzin, par i osób szukających spokojnego
-            miejsca na wakacje nad Bałtykiem.
+            Cztery kameralne apartamenty z aneksami kuchennymi, ogrodem i
+            bezpłatnym parkingiem. Blisko lasu, portu i szerokiej plaży.
           </p>
-          <a class="button" href="#contact">Zapytaj o termin</a>
+          <div class="hero-actions">
+            <a class="button" href="tel:+48602171472">Zadzwoń: 602 17 14 72</a>
+            <a class="button button-light" href="#apartamenty">Zobacz apartamenty</a>
+          </div>
         </div>
       </section>
 
-      <section id="apartments" class="section">
-        <div class="section-inner">
-          <h2>Prosty start strony</h2>
+      <section class="intro section">
+        <div class="section-heading">
+          <p class="eyebrow">Dom Gościnny Akwarium</p>
+          <h2>Miejsce na rodzinny urlop bez pośpiechu.</h2>
+        </div>
+        <div class="intro-grid">
           <p>
-            To jest pierwsza wersja projektu: statyczny HTML i CSS, gotowe do
-            dalszego rozwijania o zdjęcia, opisy apartamentów, cennik i formularz
-            kontaktowy.
+            Akwarium znajduje się w spokojnej części Mrzeżyna, po zachodniej
+            stronie Regi. Kilka dni przy nadmorskim lesie, z plażą w zasięgu
+            krótkiego spaceru, pozwala naprawdę odpocząć.
           </p>
+          <div class="fact-list" aria-label="Najważniejsze informacje">
+            <div><strong>200 m</strong><span>do plaży</span></div>
+            <div><strong>500 m</strong><span>do portu</span></div>
+            <div><strong>30 m</strong><span>do sklepu i kiosku</span></div>
+            <div><strong>4</strong><span>rodzinne apartamenty</span></div>
+          </div>
         </div>
       </section>
 
-      <section id="location" class="section section-muted">
-        <div class="section-inner">
-          <h2>Mrzeżyno</h2>
+      <section id="apartamenty" class="section section-muted">
+        <div class="section-heading">
+          <p class="eyebrow">Apartamenty</p>
+          <h2>Cztery wygodne apartamenty w morskim klimacie.</h2>
           <p>
-            Nadmorska miejscowość z szeroką plażą, portem i trasami spacerowymi
-            wzdłuż wybrzeża.
+            Każdy apartament ma aneks kuchenny, łazienkę, sprzęt plażowy oraz
+            przestrzeń do spokojnego wypoczynku.
           </p>
+        </div>
+        <div class="card-grid apartments-grid">
+          <article class="card apartment-card">
+            <p class="apartment-tag">Parter · taras · 4 osoby</p>
+            <h3>Zielony</h3>
+            <p>
+              Apartament z prywatnym tarasem i osobnym wejściem od strony ogrodu.
+              Dobry wybór dla rodziny z dziećmi.
+            </p>
+          </article>
+          <article class="card apartment-card">
+            <p class="apartment-tag">Parter · taras · 4 osoby</p>
+            <h3>Żółty</h3>
+            <p>
+              Kameralny apartament z wyjściem do ogrodu. Wygodny na spokojny
+              pobyt blisko wspólnej przestrzeni zewnętrznej.
+            </p>
+          </article>
+          <article class="card apartment-card">
+            <p class="apartment-tag">Piętro · 3 pokoje · do 6 osób</p>
+            <h3>Niebieski</h3>
+            <p>
+              Przestronny apartament na piętrze z antresolą. Dla większej
+              rodziny lub gości, którzy potrzebują więcej miejsca.
+            </p>
+          </article>
+          <article class="card apartment-card">
+            <p class="apartment-tag">Piętro · antresola · 4 osoby</p>
+            <h3>Pomarańczowy</h3>
+            <p>
+              Przytulny apartament z ciekawie rozwiązaną antresolą. Sprawdza się
+              na rodzinny wyjazd lub dłuższy weekend nad morzem.
+            </p>
+          </article>
+        </div>
+        <div class="included card">
+          <h3>W każdym apartamencie</h3>
+          <ul>
+            <li>salon z TV i miejscem do odpoczynku,</li>
+            <li>sypialnia z dwoma łóżkami jednoosobowymi,</li>
+            <li>łazienka z prysznicem i suszarką do włosów,</li>
+            <li>aneks kuchenny z lodówką, płytą indukcyjną, czajnikiem i naczyniami,</li>
+            <li>leżaki i parawan na plażę.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="udogodnienia" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Na miejscu</p>
+          <h2>Wszystko, czego potrzeba do wygodnego pobytu.</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature">Bezpłatny parking na terenie posesji</div>
+          <div class="feature">WiFi i TV w apartamentach</div>
+          <div class="feature">Altana i letnia kuchnia ogólnodostępna</div>
+          <div class="feature">Grill, miejsce na ognisko i ogród</div>
+          <div class="feature">Plac zabaw dla najmłodszych</div>
+          <div class="feature">Cicha okolica otoczona lasem</div>
+        </div>
+      </section>
+
+      <section id="cennik" class="section section-muted">
+        <div class="section-heading">
+          <p class="eyebrow">Cennik</p>
+          <h2>Przejrzyste ceny za osobę za dobę.</h2>
+          <p>
+            Ceny zależą od apartamentu i terminu. Rezerwację potwierdza zadatek,
+            a pozostała kwota jest płatna w dniu przyjazdu.
+          </p>
+        </div>
+        <div class="price-wrap">
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Apartament</th>
+                <th>Poza sezonem</th>
+                <th>Półsezon / długie weekendy</th>
+                <th>Sezon 28.06-17.08</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Zielony i Żółty · 4 osoby · taras</td>
+                <td>80 zł</td>
+                <td>95 zł</td>
+                <td>105 zł</td>
+              </tr>
+              <tr>
+                <td>Niebieski · do 6 osób</td>
+                <td>75 zł</td>
+                <td>85 zł</td>
+                <td>95 zł</td>
+              </tr>
+              <tr>
+                <td>Pomarańczowy · 4 osoby</td>
+                <td>70 zł</td>
+                <td>80 zł</td>
+                <td>85 zł</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="notes-grid">
+          <p>Doba hotelowa trwa od 14:00 w dniu przyjazdu do 10:00 w dniu wyjazdu.</p>
+          <p>Opłata klimatyczna jest wliczona w cenę.</p>
+          <p>Zwierzęta są mile widziane po uzgodnieniu. Pobyt zwierzaka: 20 zł za dobę.</p>
+          <p>Zadatek: do 50% kosztu pobytu, płatny w ciągu 4 dni od wstępnej rezerwacji.</p>
+        </div>
+      </section>
+
+      <section id="okolica" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Okolica</p>
+          <h2>Plaża, las, port i atrakcje dla całej rodziny.</h2>
+        </div>
+        <div class="attractions-grid">
+          <article>
+            <h3>Dla aktywnych</h3>
+            <p>
+              Trasy rowerowe i spacerowe, sporty wodne, spływy kajakowe Regą,
+              korty, boiska, jazda konna, wędkarstwo i wyprawy kutrem.
+            </p>
+          </article>
+          <article>
+            <h3>Warto zobaczyć</h3>
+            <p>
+              Port w Mrzeżynie, kościół neoromański, rezerwaty przyrody,
+              Trzebiatów, Kołobrzeg, Niechorze, Trzęsacz i kolejkę wąskotorową.
+            </p>
+          </article>
+          <article>
+            <h3>Dla dzieci</h3>
+            <p>
+              Plaża, place zabaw, ciuchcia turystyczna, rejsy po morzu,
+              aquapark, oceanarium w Kołobrzegu i rodzinne atrakcje w okolicy.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="kontakt" class="section contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Kontakt i rezerwacje</p>
+          <h2>Zapytaj o wolny termin.</h2>
+          <p>
+            Najszybciej ustalimy szczegóły telefonicznie. Możesz też napisać
+            e-mail z terminem pobytu i liczbą osób.
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card card">
+            <h3>Małgorzata Sroka</h3>
+            <dl>
+              <div>
+                <dt>Telefon</dt>
+                <dd><a href="tel:+48602171472">+48 602 17 14 72</a></dd>
+              </div>
+              <div>
+                <dt>E-mail</dt>
+                <dd><a href="mailto:dom@akwarium.pomorze.pl">dom@akwarium.pomorze.pl</a></dd>
+              </div>
+              <div>
+                <dt>Adres</dt>
+                <dd>ul. Zachodnia 17a<br>72-330 Mrzeżyno<br>Polska</dd>
+              </div>
+              <div>
+                <dt>Nr konta</dt>
+                <dd>Millennium S.A.<br>21 1160 2202 0000 0002 6676 6237</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="map-card">
+            <iframe
+              title="Mapa dojazdu do Akwarium w Mrzeżynie"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1168.6772169155993!2d15.27792661619208!3d54.13836738654639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47007296e9ee4383%3A0xe2b6fe0092e9a5ec!2s%22Akwarium%22%20rodzinne%20apartamenty%20nad%20morzem!5e0!3m2!1spl!2spl!4v1779774663599!5m2!1spl!2spl"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer id="contact" class="site-footer">
-      <p>Kontakt i rezerwacje będą uzupełnione w kolejnych krokach.</p>
+    <footer class="site-footer">
+      <p>© Akwarium Mrzeżyno. Rodzinne apartamenty nad morzem.</p>
     </footer>
   </body>
 </html>
